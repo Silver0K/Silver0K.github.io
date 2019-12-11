@@ -1,0 +1,97 @@
+@import "_variable.scss";
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.info__block {
+    width: 312px;
+    max-width: 30%;
+    background-color: $light;
+    padding: 20px;
+}
+
+.info__title {
+    font-size: 18px;
+}
+
+.info__paragraph {
+    font-size: 13px;
+    color: $light-gray;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.info__news-date {
+    font-size: 13px;
+    color: $light-gray;
+    margin-bottom: 5px;
+}
+
+.info__news-link {
+    font-size: 13px;
+    color: $ocean;
+}
+
+.submit {
+    margin: 25px 0;
+}
+
+.info__feedback {
+    display: flex;
+    align-items: center;
+}
+
+.info__feedback-mail {
+    background-image: url(../img/email-open.png);
+    width: 41px;
+    height: 44px;
+}
+
+.input__email {
+    margin-bottom: 25px;
+}
+
+.info__feedback-text {
+    font-size: 13px;
+    color: $light-gray;
+    font-style: italic;
+    font-family: $font-bitter;
+    max-width: 180px;
+    margin-left: 17px;
+}
+
+.input__arrow-icon {
+    width: 10px;
+    height: 16px;
+    background: url(../img/arrow_email.png) no-repeat;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+}
+
+@media (max-width: 950px) {
+    .info {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .info__block {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .input__email {
+        max-width: 310px;
+        margin: 0 auto 25px auto;
+    }
+    .info__feedback {
+        justify-content: center;
+    }
+}
