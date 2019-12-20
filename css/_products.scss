@@ -166,27 +166,20 @@
     height: 42px;
     padding: 15px;
     display: block;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .product__transfer {
     background-image: url(../img/transfer.png);
-    width: 11px;
-    height: 12px;
-    display: block;
 }
 
 .product__heart {
     background-image: url(../img/heart.png);
-    width: 12px;
-    height: 12px;
-    display: block;
 }
 
 .product__cart {
     background-image: url(../img/to-cart.png);
-    width: 16px;
-    height: 13px;
-    display: block;
 }
 
 
