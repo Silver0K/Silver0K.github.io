@@ -1091,15 +1091,15 @@ header {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   .footer__block {
-    margin: 15px;
-    width: auto; } }
+    padding: 15px;
+    width: 50%; } }
 
 @media (max-width: 650px) {
   .footer__section {
     -ms-flex-pack: distribute;
     justify-content: space-around; } }
 
-@media (max-width: 450px) {
+@media (max-width: 530px) {
   .footer__section {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -1108,7 +1108,8 @@ header {
     -ms-flex-direction: column;
     flex-direction: column; }
   .footer__block {
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
   .footer__list {
     -webkit-box-align: center;
     -ms-flex-align: center;
