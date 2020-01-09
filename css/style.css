@@ -665,8 +665,7 @@ header {
     .description__item:last-child {
       margin-bottom: 0; } }
 
-.best-product,
-.featured-product {
+.product__group {
   margin-bottom: 75px; }
 
 .product__header {
@@ -962,13 +961,13 @@ header {
     -ms-flex-pack: center;
     justify-content: center; } }
 
-.footer__wrapper {
+.footer__top {
   background-image: url(../img/bg-doted.png);
   background-size: cover;
   padding: 60px 0;
   border-bottom: 1px solid #e0e0e0; }
 
-.footer__section {
+.footer__top-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -976,7 +975,7 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.footer__block {
+.footer__top-block {
   width: 23%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -986,13 +985,13 @@ header {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-.footer__title {
+.footer__top-title {
   padding-bottom: 15px;
   margin-bottom: 25px;
   border-bottom: 1px solid #e0e0e0;
   display: block; }
 
-.footer__list {
+.footer__top-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1001,12 +1000,12 @@ header {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-.footer__list-item {
+.footer__top-item {
   margin-bottom: 20px; }
-  .footer__list-item:last-child {
+  .footer__top-item:last-child {
     margin-bottom: 0; }
 
-.footer__list-item-link {
+.footer__top-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1014,7 +1013,7 @@ header {
   -ms-flex-align: center;
   align-items: center; }
 
-.footer__list-item-link-nav {
+.img-nav {
   background-image: url(../img/nav-image.png);
   width: 16px;
   height: 13px;
@@ -1022,24 +1021,26 @@ header {
   background-position: center;
   margin-right: 10px; }
 
-.footer__list-item-link-phone {
+.img-phone {
   background-image: url(../img/icon-phone-footer.png);
   width: 16px;
   height: 12px;
   margin-right: 10px; }
 
-.footer__list-item-link-email {
+.img-email {
   background-image: url(../img/Email-image.png);
   width: 15px;
   height: 10px;
   margin-right: 10px; }
 
-.footer__list-item-link-text {
+.footer__top-link-text {
   color: #777777;
   font-size: 13px; }
 
 .footer__bottom {
-  padding: 30px 0;
+  padding: 30px 0; }
+
+.footer_bottom-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1050,22 +1051,22 @@ header {
   -ms-flex-align: center;
   align-items: center; }
 
-.footer__bottom-list {
+.social-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-.footer__bottom-copyright {
+.img-copyright {
   font-size: 13px;
   color: #999;
   display: block; }
 
-.footer__bottom-list-item {
+.social-list__item {
   margin-right: 5px; }
-  .footer__bottom-list-item:last-child {
+  .social-list__item:last-child {
     margin-right: 0; }
 
-.footer__bottom-list-item-link {
+.social-list__link {
   height: 22px;
   width: 22px;
   background-color: #444444;
@@ -1073,44 +1074,44 @@ header {
   display: block;
   background-position: center;
   background-repeat: no-repeat; }
-  .footer__bottom-list-item-link:hover {
+  .social-list__link:hover {
     cursor: pointer;
     background-color: #455AA6; }
 
-.footer__bottom-list-item-link--fb {
+.img-fb {
   background-image: url(../img/icon-fb.png); }
 
-.footer__bottom-list-item-link--tw {
+.img-tw {
   background-image: url(../img/twitter-icon.png); }
 
-.footer__bottom-list-item-link--google {
+.img-google {
   background-image: url(../img/google-icon.png); }
 
 @media (max-width: 930px) {
-  .footer__section {
+  .footer__top-section {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
-  .footer__block {
+  .footer__top-block {
     padding: 15px;
     width: 50%; } }
 
 @media (max-width: 650px) {
-  .footer__section {
+  .footer__top-section {
     -ms-flex-pack: distribute;
     justify-content: space-around; } }
 
 @media (max-width: 530px) {
-  .footer__section {
+  .footer__top-section {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
-  .footer__block {
+  .footer__top-block {
     text-align: center;
     width: 100%; }
-  .footer__list {
+  .footer__top-list {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; } }
