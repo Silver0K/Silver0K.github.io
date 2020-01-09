@@ -75,7 +75,7 @@
     }
 
 
-.product__items {
+.product__section {
     display: flex;
     justify-content: space-between;
 }
@@ -183,7 +183,7 @@
 
 
 @media (max-width: 1000px) {
-    .product__items {
+    .product__section {
         flex-wrap: wrap;
     }
     .product__item {
@@ -192,13 +192,13 @@
 }
 
 @media (max-width: 820px) {
-    .product__items {
+    .product__section {
         justify-content: center;
     }
 }
 
 @media (max-width: 725px) {
-    .product__items {
+    .product__section {
         justify-content: space-around;
     }
 }
